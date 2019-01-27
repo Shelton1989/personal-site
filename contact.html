@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- set meta tags for site information and compatibility -->
+        <meta charset="UTF-8">
+        <meta name="author" content="Shelton Wilson">
+        <meta name="description" content="Personal Website">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=9">
+
+        <!-- set title of home page -->
+        <title>Inov8: Get in touch</title>
+
+        <!-- link icons -->
+        <link rel="icon" href="/img/favicon.ico" type="images/x-icon">
+        <link rel="shortcut icon" href="/img/favicon.ico" type="images/x-icon">
+
+        <!-- link styles -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="/css/custom.css">
+    </head>
+    <body>
+        <!-- navbar to be included on every page -->
+        <nav class="nav-extended teal darken-2">
+            <div class="container nav-wrapper">
+                <a href="/index.html" class="brand-logo"><img alt="inov8 logo" src="/img/logowhite.png" width=150></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/products.html">Services</a></li>
+                    <li class="active"><a href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+            <ul id="mobile-demo" class="sidenav">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/products.html">Services</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+
+        <div class="container">
+        <!-- begin content -->
+            <br><br>
+            <div class="row">
+                <h4>Contact Me</h4>
+                <form id="contact-form" action="." class="col m6" method="POST" enctype="text/plain">
+                    <div class="row">
+                        <div class="input-field col m6">
+                            <input id="first_name" type="text" class="validate">
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col m6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col m12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col m12">
+                            <textarea id="textarea1" class="materialize-textarea"></textarea>
+                            <label for="textarea1">Your Message</label>
+                        </div>
+                    </div>
+                    <h6 id="success-div"></h6>
+                        <button class="btn waves-effect waves-light teal darken-2" type="submit" name="action">Submit
+                            <i class="material-icons right">send</i>
+                        </button>
+                </form>
+                <div class="col m6">
+                    <p>If you want to get in contact please see my details below or you can just use the contact form</p>
+                    <ul>
+                        <li><i class="tiny material-icons">call</i> 076 783 4918</li>
+                        <li><i class="tiny material-icons">call</i> 081 767 0472</li>
+                        <li><i class="tiny material-icons">email</i> shelton@inov8inc.co.za</li>
+                        <li><i class="tiny material-icons">email</i> sheltonwlsn@gmail.com</li>
+                        <li><i class="tiny material-icons">add_location</i> Johannesburg, Gauteng</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <br><br>
+                <div class="col m12">
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63745.77421186967!2d28.00933496285281!3d-26.073608169680313!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9574b0839fe795%3A0x4443ba51b0acaf0d!2sRandburg!5e0!3m2!1sen!2sza!4v1546720296991" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </div>
+        <!-- footer to be included on every page -->
+        <footer class="page-footer teal darken-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text"><img alt="inov8 logo" src="/img/logowhite.png" width=150></h5>
+                        <p class="grey-text text-lighten-4">Please <a class="grey-text text-lighten-4" href="/contact.html">contact me</a> if you need a site or have a project that requires a Python or Front End developer.</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Site Stuff</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="/contact.html">Contact</a></li>
+                            <li><a class="grey-text text-lighten-3" href="/cookies.html">Cookies</a></li>
+                            <li><a class="grey-text text-lighten-3" href="/privacy.html">Privacy</a></li>
+                            <li><a class="grey-text text-lighten-3" href="/about.html">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright teal darken-3">
+                <div class="container">
+                    © 2019 inov8 inc.
+                    <a class="grey-text text-lighten-4 right" href="/index.html">by Shelton Wilson</a>
+                </div>
+            </div>
+        </footer>
+        <!-- link JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.2.4/email.min.js"></script>
+        <script type="text/javascript" src="/js/custom.js"></script>
+        <script type="text/javascript">
+            (function(){
+               emailjs.init("user_PHzhXFbNTsbtIPNO0QHxX");
+            })();
+         </script>
+         
+         <script type="text/javascript">
+            $(document).ready(function(){
+                $('.sidenav').sidenav();
+            });
+                 window.onload = function() {
+                     
+                     document.getElementById('contact-form').addEventListener('submit', function(event) {
+                         event.preventDefault();
+                         var templateParameters = {
+                            name: document.getElementById('first_name').value,
+                            lastName: document.getElementById('last_name').value,
+                            email: document.getElementById('email').value,
+                            message: document.getElementById('textarea1').value
+                        }
+                         emailjs.send('sendgrid', 'template_wC3FlAvk', templateParameters)
+                         .then(function(response){
+                            document.getElementById('success-div').innerHTML = 'Success'
+                         }, function(error){
+                            document.getElementById('success-div').innerHTML = 'Error, please refresh the page and resubmit.'
+                         });
+                     });
+                 }
+         </script>
+    </body>
+</html>
