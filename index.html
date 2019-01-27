@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- set meta tags for site information and compatibility -->
+        <meta charset="UTF-8">
+        <meta name="author" content="Shelton Wilson">
+        <meta name="description" content="Personal Website">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=9">
+
+        <!-- set title of home page -->
+        <title>Inov8: Web sites and apps by Shelton Wilson</title>
+
+        <!-- link icons -->
+        <link rel="icon" href="/img/favicon.ico" type="images/x-icon">
+        <link rel="shortcut icon" href="/img/favicon.ico" type="images/x-icon">
+
+        <!-- link styles -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="/css/custom.css">
+        <link rel="stylesheet" type="text/css" href="/css/slider.css">
+    </head>
+    <body>
+        <!-- navbar to be included on every page -->
+        <nav id="navbar" class="nav-extended teal darken-2">
+            <div class="container nav-wrapper">
+                <a href="/index.html" class="brand-logo"><img alt="inov8 logo" src="/img/logowhite.png" width=150></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li class="active"><a href="/index.html">Home</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/products.html">Services</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <ul id="mobile-demo" class="sidenav">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/products.html">Services</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+        <!-- slider -->
+        <div style="height: 800px" id="slider-wrapper" class="slider-wrapper" onload="setInterval()">
+            <div id="slide-1" class="slide"></div>
+            <div id="slide-2" class="slide"></div>
+            <div id="slide-3" class="slide"></div>
+            <div id="slide-4" class="slide"></div>
+            <div id="slide-5" class="slide"></div>
+            <div id="slide-6" class="slide"></div>
+            <div class="buttons">
+                    <button id="back-button" onclick="handleBack()"><i class="medium material-icons">chevron_left</i></button>
+                    <button id="next-button" onclick="handleNext()"><i class="medium material-icons">chevron_right</i></button>
+            </div>
+        </div>
+
+        <div class="container">
+        <!-- begin content -->
+            <br><br>
+            
+
+            <!-- promo table -->
+            <div class="row">
+                <div class="col m12">
+                    <div class="col m4">
+                        <div style="text-align:center">
+                            <i style="color: teal" class="large material-icons">build</i>
+                        </div>
+                        <p>No matter what you envision for your project. Whether it be a web app, web site or a deep learning program, 
+                            I have all the tools needed to build your project from the ground up.</p>
+                    </div>
+                    <div class="col m4">
+                        <div style="text-align:center">
+                            <i style="color: teal" class="large material-icons">important_devices</i>
+                        </div>
+                        <p>Responsive designs for multiple different platfroms. Desktops, tablets and phones, you project will look
+                            great on any device.</p>
+                    </div>
+                    <div class="col m4">
+                        <div style="text-align:center">
+                            <i style="color: teal" class="large material-icons">flash_on</i>
+                        </div>
+                        <p>Lightning fast turnaround time. A site like this one takes about two days to complete including all the 
+                            design, image and media tweaks in Adobe.</p>
+                    </div>
+                </div>
+                <br><br>
+            </div>
+        </div>
+        <!-- some marketing stuff -->
+        <div id="services" class="row">
+            <div class="container">
+                <div class="col m6 offset-m6">
+                    <h5>Services</h5>
+                    <p>I only employ the most modern techniques and I always aim to keep my skills updated so that every project I work on 
+                        always looks modern and appealing. <a href="/products.html">Click here</a> for more information.
+                    </p>
+                </div>
+            </div>
+            <br><br>
+        </div>
+
+        <!-- link to contact page-->
+        <div id="contact" class="row">
+            <div class="container">
+                <div class="contact col m6">
+                    <h5>Contact</h5>
+                    <p>I am eager to work on your next project. Please <a href="/contact.html">contact me</p>
+                </div>
+            </div>
+            <br><br>
+        </div>
+        <!-- footer to be included on every page -->
+        <footer class="page-footer teal darken-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 m12">
+                        <h5 class="white-text"><img alt="inov8 logo" src="/img/logowhite.png" width=150></h5>
+                        <p class="grey-text text-lighten-4">Please contact me if you need a site or have a project that requires a Python or Front End developer.</p>
+                    </div>
+                    <div class="col l4 offset-l2 m12">
+                        <h5 class="white-text">Site Stuff</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="/contact.html">Contact</a></li>
+                            <li><a class="grey-text text-lighten-3" href="/cookies.html">Cookies</a></li>
+                            <li><a class="grey-text text-lighten-3" href="/privacy.html">Privacy</a></li>
+                            <li><a class="grey-text text-lighten-3" href="/about.html">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright teal darken-3">
+                <div class="container">
+                    © 2019 inov8 inc.
+                    <a class="grey-text text-lighten-4 right" href="/index.html">by Shelton Wilson</a>
+                </div>
+            </div>
+        </footer>
+        <!-- link JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script type="text/javascript" src="/js/custom.js"></script>
+        <script type="text/javascript" src="/js/slider.js"></script>
+    </body>
+</html>

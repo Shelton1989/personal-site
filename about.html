@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- set meta tags for site information and compatibility -->
+        <meta charset="UTF-8">
+        <meta name="author" content="Shelton Wilson">
+        <meta name="description" content="Personal Website">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=9">
+
+        <!-- set title of home page -->
+        <title>Inov8: About this site</title>
+
+        <!-- link icons -->
+        <link rel="icon" href="/img/favicon.ico" type="images/x-icon">
+        <link rel="shortcut icon" href="/img/favicon.ico" type="images/x-icon">
+
+        <!-- link styles -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="/css/custom.css">
+    </head>
+    <body>
+        <!-- navbar to be included on every page -->
+        <nav class="nav-extended teal darken-2">
+            <div class="container nav-wrapper">
+                <a href="/index.html" class="brand-logo"><img alt="inov8 logo" src="/img/logowhite.png" width=150></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="/index.html">Home</a></li>
+                    <li class="active"><a href="/about.html">About</a></li>
+                    <li><a href="/products.html">Services</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+            <ul id="mobile-demo" class="sidenav">
+                <li><a href="/index.html">Home</a></li>
+                <li id="navbar"><a href="/about.html">About</a></li>
+                <li><a href="/products.html">Services</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+
+        <div class="container">
+        <!-- begin content -->
+        <br><br>
+            <div class="row">
+                <h4>About</h4>
+                <div class="col m6">
+                    <p>Fair warning, there is quite a bit of reading ahead so please be warned.</p>
+                    <h5>About this site</h5>
+                    <p>This site was written in HTML 5 and uses a CSS framework called Materialize. It is a lesser known framework, most developers 
+                        use the bootstrap framework but Materialize was developed by Google. The style of this site could've been written from scratch 
+                        but I chose to use a framework because of the following reasons: 
+                    </p>
+                    <ul>
+                        <li>- They are made so that you don't have to rewrite code.</li>
+                        <li>- They are always maintained by the creators and therefore easy to maintain.</li>
+                        <li>- They are modern and easy to incorporate.</li>
+                    </ul>
+                    <p>This Site includes the JQuery library but I haven't incorporated it because all the Javascript on this site is written in pure 
+                        Javascript. Mainly because it's a force of habit. The main components using JavaScript:
+                    </p>
+                    <ul>
+                        <li>- The home page slide.</li>
+                        <li>- The contact page form</li>
+                        <li>- The services page cards</li>
+                    </ul>
+                    <p>The slide is pretty much basic JS. It's essentially just a counter variable adding on numbers to an image id so that the large 
+                        image inherits the src attribute value of the the thumbnail. There in also an interval set so that the slide show runs on its 
+                        own.</p>
+                    <p>The contact page is fairly simple. It uses emailJS methods for sending mails from an API. Basically, The form is a standard 
+                        HTML form. It collects all the information from the user, a JS variable stores it in a JSON object and emailJS puts it in a 
+                        template and sends it to a recipient email. Easy.
+                    </p>
+                    <p>The cards on the service page were not written by me but rather by Materialize. I assume it works the same way that the Bootstrap 
+                        collapsible menu does.
+                    </p>
+                </div>
+                <div class="col m6">
+                    <div>
+                        <iframe class="video" src="https://www.youtube.com/embed/Q8TXgCzxEnw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <br><br>
+                    <div>
+                        <img class="image" alt="emailJS logo" src="/img/emailjslogo.png">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col m6">
+                    <div class="card-panel z-depth-1">
+                        <div class="row valign-wrapper">
+                            <div class="col m4">
+                                <img src="/img/shelton.png" alt="" class="circle responsive-img">
+                            </div>
+                            <div class="col m8">
+                                <span class="black-text">
+                                    Please click on the contact page to get in contact with me.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m6">
+                    <h5>About me</h5>
+                    <p>Well, I started my web development hobby in 2013 manipulating Joomla and Wordpress sites while working as a construction foreman 
+                        because my formal education is in Civil Engineering. I built sites for friends and family, It was mostly with templates and site 
+                        builders. In 2017 I started following Django Tutorials and couldn't really follow because it's like going on a road 
+                        trip with no tyres and gas in the tank since Django is a Python framework. So, I learned the Python programming language over 
+                        a two week binge learning session with Codecademy and YouTube videos. I spent another week studying the Django documentation and 
+                        I started writing my first web app after that which was an ecommerce site. The site was bland an uninteresting but functional, so 
+                        I decided to spice it up by learning HTML and CSS in depth. Then I learned Javascript over another two week binge learning session. 
+                        Since then I formalised my skills on coursera with a certificate from the University of London as well as countless hours of coding 
+                        some apps for friends and web sites for myself and other clients.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <!-- footer to be included on every page -->
+        <footer class="page-footer teal darken-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text"><img alt="inov8 logo" src="/img/logowhite.png" width=150></h5>
+                        <p class="grey-text text-lighten-4">Please <a class="grey-text text-lighten-4" href="/contact.html">contact me</a> if you need a site or have a project that requires a Python or Front End developer.</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Site Stuff</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="/contact.html">Contact</a></li>
+                            <li><a class="grey-text text-lighten-3" href="/cookies.html">Cookies</a></li>
+                            <li><a class="grey-text text-lighten-3" href="/privacy.html">Privacy</a></li>
+                            <li><a class="grey-text text-lighten-3" href="/about.html">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright teal darken-3">
+                <div class="container">
+                    © 2019 inov8 inc.
+                    <a class="grey-text text-lighten-4 right" href="/index.html">by Shelton Wilson</a>
+                </div>
+            </div>
+        </footer>
+        <!-- link JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.sidenav').sidenav();
+            });
+        
+        </script>
+    </body>
+</html>
